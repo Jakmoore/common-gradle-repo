@@ -6,8 +6,8 @@ ext {
 }
 
 dependencies {
-  compile("org.springframework.boot:spring-boot-starter:${springBoot}")
-  compile("org.springframework.boot:spring-boot-starter-web:${springBoot}")
+  compile group: 'spring-boot-starter-web', name: 'org.springframework.boot', version: '2.3.4.RELEASE'
+  compile group: 'commons-io', name: 'commons-io', version: '2.9'
 }
 
 ext.libraries = [
